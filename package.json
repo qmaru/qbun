@@ -1,28 +1,35 @@
 {
   "name": "qbun",
-  "module": "index.ts",
-  "private": true,
   "version": "0.0.1",
   "description": "A simple Bun CLI tool",
   "bin": {
-    "qbun": "src/index.ts"
+    "qbun": "dist/index.js"
   },
   "scripts": {
     "build": "bun build src/index.ts --outdir=dist --target=node",
     "dev": "bun run src/index.ts",
+    "test": "bun test",
     "fmt": "oxfmt",
-    "lint": "oxlint",
-    "test": "bun test"
+    "lint": "oxlint"
   },
+  "files": [
+    "dist"
+  ],
+  "author": "qmaru",
+  "license": "ISC",
   "devDependencies": {
     "@types/bun": "latest",
     "oxfmt": "^0.16.0",
     "oxlint": "^1.31.0"
   },
-  "peerDependencies": {
-    "typescript": "^5"
-  },
   "dependencies": {
     "commander": "^14.0.2"
+  },
+  "publishConfig": {
+    "@qmaru:registry": "https://npm.pkg.github.com",
+    "access": "public"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
   }
 }
