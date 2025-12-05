@@ -6,6 +6,7 @@
       "name": "qbun",
       "dependencies": {
         "@qmaru/mdp-js": "^1.1.4",
+        "@qmaru/rtools-web": "^1.3.4",
         "commander": "^14.0.2",
       },
       "devDependencies": {
@@ -52,6 +53,8 @@
     "@oxlint/win32-x64": ["@oxlint/win32-x64@1.31.0", "", { "os": "win32", "cpu": "x64" }, "sha512-AS/h58HfloccRlVs7P3zbyZfxNS62JuE8/3fYGjkiRlR1ZoDxdqmz5QgLEn+YxxFUTMmclGAPMFHg9z2Pk315A=="],
 
     "@qmaru/mdp-js": ["@qmaru/mdp-js@1.1.4", "https://npm.pkg.github.com/download/@qmaru/mdp-js/1.1.4/1f2e8178a6b238982de2524fa86789b2155db224", { "dependencies": { "node-html-parser": "^7.0.1" }, "bin": { "mdp-js": "dist/cli.js" } }, "sha512-5ZjJ5jtKrFupv4/P5jxzIW0CljiLPfsWkNRu1nw0xvSSOb2OqkKgxg0htX0InJJ3MFv75NgIZI7HFDeTCjOKIQ=="],
+
+    "@qmaru/rtools-web": ["@qmaru/rtools-web@1.3.4", "https://npm.pkg.github.com/download/@qmaru/rtools-web/1.3.4/1e290e4a0dd0c1451318d8ac2cc8f9aeac9e178e", {}, "sha512-iCA0e+K82NWlunwPzagTrOLNBb3OLa1VFwJGM5OIZ0otQFXseSHsrx2EPUKA5Fl3vhCRtcfiwqnzkPfEwru6zw=="],
 
     "@types/bun": ["@types/bun@1.3.3", "", { "dependencies": { "bun-types": "1.3.3" } }, "sha512-ogrKbJ2X5N0kWLLFKeytG0eHDleBYtngtlbu9cyBKFtNL3cnpDZkNdQj8flVf6WTZUX5ulI9AY1oa7ljhSrp+g=="],
 

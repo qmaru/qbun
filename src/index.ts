@@ -4,6 +4,7 @@ import { Command } from "commander"
 import { versionInfo } from "./version"
 import { createPing } from "./ping"
 import { createMdp } from "./mdp"
+import { createSecret } from "./secret"
 
 const program = new Command()
 
@@ -15,6 +16,7 @@ program
 
 program.addCommand(createPing(program))
 program.addCommand(createMdp(program))
+program.addCommand(createSecret(program))
 
 program.parse(process.argv)
 if (process.argv.length <= 2 || program.args.length === 0) {

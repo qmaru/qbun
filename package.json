@@ -7,6 +7,7 @@
   },
   "scripts": {
     "build": "bun build src/index.ts --outdir=dist --target=node",
+    "postbuild": "cp node_modules/@qmaru/rtools-web/rtools_web_bg.wasm dist/",
     "dev": "bun run src/index.ts",
     "test": "bun test",
     "fmt": "oxfmt",
@@ -24,6 +25,7 @@
   },
   "dependencies": {
     "@qmaru/mdp-js": "^1.1.4",
+    "@qmaru/rtools-web": "^1.3.4",
     "commander": "^14.0.2"
   },
   "publishConfig": {
