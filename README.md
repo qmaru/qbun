@@ -16,4 +16,5 @@ To build:
 
 ```bash
 bun run build
+# npx @qmaru/qbun@latest ping
 ```

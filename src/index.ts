@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import { Command } from "commander"
-import pkg from "../package.json" assert { type: "json" }
 
+import { versionInfo } from "./version"
 import { createPing } from "./ping"
 
 const program = new Command()
@@ -9,8 +9,8 @@ const program = new Command()
 program
   .name("qbun")
   .description("many bun tools")
-  .version(pkg.version)
-  .helpOption("-h, --help", "Show help information")
+  .version(versionInfo, "-v, --version", "Show version")
+  .helpOption("-h, --help", "Show help")
 
 program.addCommand(createPing(program))
 
