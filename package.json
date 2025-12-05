@@ -23,6 +23,7 @@
     "oxlint": "^1.31.0"
   },
   "dependencies": {
+    "@qmaru/mdp-js": "^1.1.4",
     "commander": "^14.0.2"
   },
   "publishConfig": {
