@@ -1,5 +1,5 @@
 {
-  "name": "qbun",
+  "name": "@qmaru/qbun",
   "version": "0.0.1",
   "description": "A simple Bun CLI tool",
   "bin": {
