@@ -6,7 +6,7 @@
       "name": "qbun",
       "dependencies": {
         "@qmaru/mdp-js": "^1.1.4",
-        "@qmaru/rtools-web": "^1.3.4",
+        "@qmaru/rtools-node": "^1.3.5",
         "commander": "^14.0.2",
       },
       "devDependencies": {
@@ -15,7 +15,7 @@
         "oxlint": "^1.31.0",
       },
       "peerDependencies": {
-        "typescript": "^5",
+        "typescript": "^5.9.3",
       },
     },
   },
@@ -54,15 +54,15 @@
 
     "@qmaru/mdp-js": ["@qmaru/mdp-js@1.1.4", "https://npm.pkg.github.com/download/@qmaru/mdp-js/1.1.4/1f2e8178a6b238982de2524fa86789b2155db224", { "dependencies": { "node-html-parser": "^7.0.1" }, "bin": { "mdp-js": "dist/cli.js" } }, "sha512-5ZjJ5jtKrFupv4/P5jxzIW0CljiLPfsWkNRu1nw0xvSSOb2OqkKgxg0htX0InJJ3MFv75NgIZI7HFDeTCjOKIQ=="],
 
-    "@qmaru/rtools-web": ["@qmaru/rtools-web@1.3.4", "https://npm.pkg.github.com/download/@qmaru/rtools-web/1.3.4/1e290e4a0dd0c1451318d8ac2cc8f9aeac9e178e", {}, "sha512-iCA0e+K82NWlunwPzagTrOLNBb3OLa1VFwJGM5OIZ0otQFXseSHsrx2EPUKA5Fl3vhCRtcfiwqnzkPfEwru6zw=="],
+    "@qmaru/rtools-node": ["@qmaru/rtools-node@1.3.5", "https://npm.pkg.github.com/download/@qmaru/rtools-node/1.3.5/769ed9477433c525544e45ad3851c109602e1861", {}, "sha512-Q+7Fs4JobFKRPkhmhe+ibxRXn9VQu1vkiLKBHw7uJ1ru5qbk9bghPQiS3ABYtlEuftPdjwPmTZxxYk9x36TOsw=="],
 
-    "@types/bun": ["@types/bun@1.3.3", "", { "dependencies": { "bun-types": "1.3.3" } }, "sha512-ogrKbJ2X5N0kWLLFKeytG0eHDleBYtngtlbu9cyBKFtNL3cnpDZkNdQj8flVf6WTZUX5ulI9AY1oa7ljhSrp+g=="],
+    "@types/bun": ["@types/bun@1.3.4", "", { "dependencies": { "bun-types": "1.3.4" } }, "sha512-EEPTKXHP+zKGPkhRLv+HI0UEX8/o+65hqARxLy8Ov5rIxMBPNTjeZww00CIihrIQGEQBYg+0roO5qOnS/7boGA=="],
 
     "@types/node": ["@types/node@24.10.1", "", { "dependencies": { "undici-types": "~7.16.0" } }, "sha512-GNWcUTRBgIRJD5zj+Tq0fKOJ5XZajIiBroOF0yvj2bSU1WvNdYS/dn9UxwsujGW4JX06dnHyjV2y9rRaybH0iQ=="],
 
     "boolbase": ["boolbase@1.0.0", "", {}, "sha512-JZOSA7Mo9sNGB8+UjSgzdLtokWAky1zbztM3WRLCbZ70/3cTANmQmOdR7y2g+J0e2WXywy1yS468tY+IruqEww=="],
 
-    "bun-types": ["bun-types@1.3.3", "", { "dependencies": { "@types/node": "*" } }, "sha512-z3Xwlg7j2l9JY27x5Qn3Wlyos8YAp0kKRlrePAOjgjMGS5IG6E7Jnlx736vH9UVI4wUICwwhC9anYL++XeOgTQ=="],
+    "bun-types": ["bun-types@1.3.4", "", { "dependencies": { "@types/node": "*" } }, "sha512-5ua817+BZPZOlNaRgGBpZJOSAQ9RQ17pkwPD0yR7CfJg+r8DgIILByFifDTa+IPDDxzf5VNhtNlcKqFzDgJvlQ=="],
 
     "commander": ["commander@14.0.2", "", {}, "sha512-TywoWNNRbhoD0BXs1P3ZEScW8W5iKrnbithIl0YH+uCmBd0QpPOA8yc82DS3BIE5Ma6FnBVUsJ7wVUDz4dvOWQ=="],
 
