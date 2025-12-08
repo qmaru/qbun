@@ -1,0 +1,16 @@
+diff --git a/rtools_node.js b/rtools_node.js
+index b00136aa36965655d9430052ad8e8f95e2736bf4..11682046794ed72908fe8d74e22f891974a01f0e 100644
+--- a/rtools_node.js
++++ b/rtools_node.js
+@@ -1,6 +1,11 @@
+ 
+ let imports = {};
+ imports['__wbindgen_placeholder__'] = module.exports;
++import { dirname } from 'path'
++import { fileURLToPath } from 'url'
++
++const __filename = fileURLToPath(import.meta.url);
++const __dirname = dirname(__filename)
+ 
+ function addToExternrefTable0(obj) {
+     const idx = wasm.__externref_table_alloc();

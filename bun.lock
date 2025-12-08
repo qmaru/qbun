@@ -19,6 +19,9 @@
       },
     },
   },
+  "patchedDependencies": {
+    "@qmaru/rtools-node@1.3.5": "patches/@qmaru%2Frtools-node@1.3.5.patch",
+  },
   "packages": {
     "@oxfmt/darwin-arm64": ["@oxfmt/darwin-arm64@0.16.0", "", { "os": "darwin", "cpu": "arm64" }, "sha512-I+Unj7wePcUTK7p/YKtgbm4yer6dw7dTlmCJa0UilFZyge5uD4rwCSfSDx3A+a6Z3A60/SqXMbNR2UyidWF4Cg=="],
 
